@@ -1,8 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-     background: url(../images/sky.jpg) no-repeat;
-    /* background: url(https://0i.is/2lqq) no-repeat; */
+/*      background: url(../images/sky.jpg) no-repeat; */
+     background: url(https://0i.is/2lqq) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
