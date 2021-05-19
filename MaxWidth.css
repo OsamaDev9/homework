@@ -1,0 +1,408 @@
+
+/* #######################      index.html file     #######################*/
+
+/* @media screen and (max-width:1200px){
+.body_index .images {
+position:absolute;
+
+}
+.body_index .images .boximgandcont1{
+position: relative;
+left: 0;
+width: 25%;
+margin: 5px;
+}
+.body_index .images .boximgandcont2{
+width: 25%;
+margin: 5px;
+}
+.body_index .images .boximgandcont3{
+width: 25%;
+margin: 5px;
+}
+.body_index .images .boximgandcont4{        
+width: 25%;
+margin: 5px;
+}
+} */
+@media screen and (max-width:1200px){
+/* --------------------  Heading  ----------------------- */
+.body_index .heading h1{
+font-size: 40px;
+}
+/* --------------------  Button heading  ----------------------- */
+.heading .up-in{
+background: rgba(0, 0, 0, 0.4);
+}
+/* --------------------  Images AND Column the Box photo  ----------------------- */
+.images{
+height: 85%;
+}
+.boximgandcont1{
+width: 23%;
+margin: 10px 0px 0px;
+}
+.boximgandcont2{
+width: 23%;
+margin: 10px;
+}
+.boximgandcont3{
+width: 23%;
+margin: 10px;
+}
+.boximgandcont4{
+width: 23%;
+margin: 10px;
+}
+.introvid .column_center{
+width: 40%;
+left: 40%;
+top: 20%;
+}
+/* --------------------  video  ----------------------- */
+.video{
+position: absolute;
+top: 270vh;
+display: inline-flex;
+}
+.video_bady{
+        position:absolute;
+        width: 27%;
+        height:70%;
+        
+        left: -5%;
+}
+.vid1{
+    position:absolute;
+    left: 1px;
+}
+.vid2{
+    position:absolute;
+    left: 150%;
+    
+}
+.vid3{
+    position:absolute;
+    left: 280%;
+    
+}
+
+.tle2{
+    left:150%;
+}
+.tle3{
+    left:280%;
+}
+/* --------------------    GoUp    ---------------------- */
+.goup{
+  text-decoration: none;
+  position:absolute;
+  text-align: center;
+   font-size: 25px;
+     color: aliceblue;
+     background-attachment: fixed;
+      top:348%;
+      left:2%;
+}
+/* --------------------  End Div  ----------------------- */
+.divend{
+position: absolute;
+top: 353vh;
+height: 20%;
+
+}
+.divend .sendMy button{
+  position: absolute;
+  display:inline-flex;
+  left: 52%;
+  top: 5%;
+  width: 11%;
+  font-size: 20px;
+
+}
+.divend .sendMy p{
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.divend .sendMy .fa-envelope{
+  position:absolute;
+  left: 35%;
+  top: -80%;
+}
+.divend .chat{
+    top: 30%;
+    left: 40%;
+    width: 60%;
+}
+}
+@media screen and (max-width:750px){
+.body_index .heading h1{
+font-size: 40px;
+}
+.heading .clik{
+    display: block;
+width: 100%;
+text-align: center;
+}
+.heading .up-in .up{
+left: 19%;
+}
+.heading .up-in .in{
+left: -10%;
+top: 63px;
+}
+.body_index .images{
+height: 80%;
+background: cornsilk;
+}
+.body_index .images .boximgandcont1{
+position: relative;
+width: 40%;
+display:inline-flex;
+}
+.body_index .images .boximgandcont2{
+position: relative;
+display: inline-block;
+width: 40%;
+left: 60px;
+top: 15px;
+
+}
+.body_index .images .boximgandcont3{
+display:inline-block;
+position: relative;
+width: 40%;
+left: 8px;
+top: 30px;
+}
+.body_index .images .boximgandcont4{
+display: inline-block;
+position: relative;
+width: 40%;
+top: 30px;
+left: 10%;
+}
+/*------------------    intro Video div    ------------------------ */
+.introvid{
+position: absolute;
+top: 260vh;
+}
+.introvid .column_center{
+width: 50%;
+left: 44%;
+top: 20%;
+}
+.introvid .column_left{
+width: 40%;
+top: 40%;
+font-size: 5px;
+}
+.introvid .column_left span{
+font-size: 15px;
+}
+
+/*---------------------------  video div  --------------------------- */
+.video{
+position: absolute;
+top: 350vh;
+}
+.vid1{
+    position: absolute;
+    left: 15px;
+}
+.tle1{
+    left:13%;
+}
+.tle2{
+    left:150%;
+}
+.tle3{
+    left:280%;
+}
+/* --------------- GoUp ------------------ */
+.goup{
+  text-decoration: none;
+  position:absolute;
+  text-align: center;
+   font-size: 25px;
+     color: aliceblue;
+     background-attachment: fixed;
+      top:428%;
+      left:2%;
+}
+/* --------------- divend ---------------- */
+.divend{
+    position: absolute;
+    height: 25%;
+    top: 433vh;
+
+}
+.divend .my{
+position: relative;
+width: 60%;
+height: 60%;
+top: 10%;
+left: 20px;
+}
+.divend .sendMy button{
+  position: absolute;
+  display:inline-flex;
+  left: 72%;
+  top: 5%;
+  width: 17%;
+  font-size: 20px;
+}
+.divend .sendMy p{
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.divend .sendMy .fa-envelope{
+  position:absolute;
+  left: 40%;
+  top: -26%;
+  font-size: 30px;
+}
+/* .divend .sendMy button{
+    position:absolute;
+    width: 22%;
+    height: 20%;
+    left: 70%;
+    top: 10px;
+    display:inline-flex;
+    
+
+}
+.divend .sendMy .fa-envelope{
+    position:absolute;
+    left:38%;
+    font-size: 40px;
+    margin: 15px 10px;
+} */
+/* .divend .sendMy i{
+    position:absolute;
+    left: 30%;
+    top: -40%;
+}
+.divend .sendMy button,i{
+    position: relative;
+    display:inline-flex;
+    left: 20%;
+    top: -18%;
+} */
+.divend .chat{
+    top: 65%;
+    left: 0%;
+    width: 100%;
+    height: 30%;
+    text-align: end;
+
+}
+.fa {
+padding: 0px 15px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 0px 2px;
+font-size: 40px;
+}
+
+.ht:hover + span { 
+    display: block;
+    color: red;
+    background: rgba(134, 207, 231, 0.747);
+    position: absolute;
+    left: 16%;
+  }
+  .CS:hover + span { 
+    display: block;
+    text-align: start;
+    color: red;
+    background: rgba(134, 207, 231, 0.747);
+    position: absolute;
+    top: 40%;
+    left: 12%;
+  }
+}
+
+@media screen and (max-width:550px){
+  .introvid .column_left hr{
+    position: absolute;
+    top: 125%;
+  }  
+  .video_bady{
+        position:absolute;
+        left:1%;
+        width: 80%;
+        height:50%;
+  display: block;
+}
+.vid1{
+    position:absolute;
+    left:11%;
+}
+.vid2{
+    position:absolute;
+    top: 60vh;
+    left:11%;
+    
+    
+}
+.vid3{
+    position:absolute;
+    top: 120vh;
+    left:11%;
+    
+}
+ .tle1{
+    left:13%;
+}
+ .tle2{
+     top: 253%;
+  left: 40px;
+}
+  .tle3{
+    top: 402%;
+  left: 40px;
+}
+/* -------------------------    GoUp    ----------------------------- */
+.goup{
+  text-decoration: none;
+  position:absolute;
+  text-align: center;
+   font-size: 25px;
+      top:528%;
+      left:2%;
+      opacity: .5;
+}
+/* -------------------------    End Div    ----------------------------- */
+.divend{
+    position: absolute;
+    top: 533vh;
+    
+}
+/* -------------------------    ELEMENT FILE  / LIST DIV  ----------------------------- */
+.ht:hover + span { 
+    display: block;
+    color: red;
+    background: rgba(134, 207, 231, 0.747);
+    position: absolute;
+    left: 20%;
+  }
+  .CS:hover + span { 
+    display: block;
+    text-align: start;
+    color: red;
+    background: rgba(134, 207, 231, 0.747);
+    position: absolute;
+    top: 40%;
+    left: 15%;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<!--<link rel="icon" href="images/ba.png" />-->
+<link rel="icon" href="https://j.top4top.io/p_1954caidc1.jpg" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<title>One animation HTML</title>
+<link rel="stylesheet" href="CSS/index.css" />
+<link rel="stylesheet" href="CSS/MaxWidth.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body_index">
+<div class="heading" id="start">
+<h1>This's my Website</h1>
+<div class="Index">
+<ol class="clas_ol">
+<a href="element.html">Elements</a>
+<br />
+<a href="#img">Image</a>
+<br />
+<!-- <a href="#ord">Order List</a> -->
+<br />
+<a href="#vid">Video</a>
+<br />
+<a href="#contact">contact</a>
+<br />
+</ol>
+<div class="loop"></div>
+</div>
+<div class="up-in">
+<div class="up">
+<a class="clik" href="SingUp.html">Sing Up</a>
+</div>
+<div class="in">
+<a class="clik" href="singIn.html">Sing In</a>
+</div>
+</div>
+</div>
+<!--=============================== IMAGES ==================================-->
+<!-- <div class="introimg">
+<!--h5>title paragraph test</h5->
+<img src="images/book.png" alt="test">
+<p>test paragraph in insted div to test paragraph in insted div to </p>
+</div> -->
+<!--=============================== IMAGES ==================================-->
+<div class="images" id="img">
+<div class="boximgandcont1">
+<!--<img class="img" src="images/back10.jpg" alt="Card image cap" />-->
+<img class="img" src="https://0i.is/18cJ" alt="Card image cap" />
+<div class="img-box">
+<h5 class="img-title">Tiltle images 1</h5>
+<p class="img-text">
+This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh.
+</p>
+</div>
+</div>
+<div class="boximgandcont2">
+<!--<img class="img" src="images/back0.jpg" alt="Card image cap" />-->
+<img class="img" src="https://0i.is/C6WQ" alt="Card image cap" />
+<div class="img-box">
+<h5 class="img-title">Tiltle images 2</h5>
+<p class="img-text">
+This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh.
+</p>
+</div>
+</div>
+<div class="boximgandcont3">
+<!--<img class="img" src="image/33.jpg" alt="Card image cap" />-->
+<img class="img" src="https://0i.is/ZaY3" alt="Card image cap" />
+<div class="img-box">
+<h5 class="img-title">Tiltle images 3</h5>
+<p class="img-text">
+This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh.
+</p>
+</div>
+</div>
+<div class="boximgandcont4">
+<!--<img class="img" src="images/back4.jpg" alt="Card image cap" />-->
+<img class="img" src="https://0i.is/0Tu5" alt="Card image cap" />
+<div class="img-box">
+<h5 class="img-title">Tiltle images 4</h5>
+<p class="img-text">
+This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh. This is a prograh.
+</p>
+</div>
+</div>
+</div>
+<!--=============================== bxo text ==================================-->
+<div class="introvid" >
+<div class="row">
+<h2>VIDEO ELEMENT</h2>
+<span>text from in kaybords just test Website</span>
+</div>
+<div class="column_center">
+<!--h5>title paragraph test</h5-->
+<!--<img src="images/book.png" alt="test" />-->
+<img src="https://0i.is/B7pt" alt="test" />
+<p>test paragraph in insted div to test paragraph in insted div to</p>
+</div>
+<div class="column_left">
+<span>
+Lorem Ipsum is that it has a more-or-less normal distribution of letters, Lorem Ipsum is that it has a more-or-less normal distribution of letters Lorem Ipsum is that it has a more-or-less normal distribution of letters
+</span>
+<hr />
+</div>
+<!--div class="cal_3">
+<h4>Tag Video : </h4>
+<span> format tag :
+<code>test</code>
+Lorem Ipsum is that it has a more-or-less <br> normal distribution of letters, 
+Lorem Ipsum</span>
+
+</div-->
+</div>
+<!--=============================== VIDEO ==================================-->
+<div class="video" id="vid">
+<div class="video_bady">
+<video  class="disvid vid1" controls > 
+  <source src="videos/movis3.mp4" type="video/mp4" />
+</video>
+<div class="title tle1">Lorem Ipsum is that it has a more-or-less normal distribution of letters,</div>
+<video  class="disvid vid2" controls > 
+  <source src="videos/movis2.mp4" type="video/mp4" />
+</video>
+<div class="title tle2">tow movis play one and control panel display in screen</div>
+<video  class="disvid vid3" controls > 
+  <source src="videos/movis5.mp4" type="video/mp4" />
+</video>
+<div class="title tle3">thre movis</div>
+</div>
+<script>
+    let videos = document.querySelectorAll("video");
+    videos.forEach((elem) => {elem.addEventListener("playing", function(e){stopAnyElse(e)})})
+    
+    function stopAnyElse(ele){
+      let currentvid = ele.target;
+    let arrayElse = Array.from(videos).filter(elem => elem != currentvid)
+    
+    arrayElse.forEach(elem=> elem.pause())
+    }
+    </script>
+</div>
+<a href="#start" class="goup"><span>Go Up</span></a> 
+<div class="divend" id="contact">
+<div class="my">
+<p>HomWork</p>
+<span>Dr : Ebrahem alsurmy</span>
+<br>
+<span>Student : Osama Mohammed</span>
+</div>
+<div class="sendMy">
+<p>Send My : </p> <a href = "mailto: Osama@gmail.com">
+<button>E-mail <i class="fa fa-envelope"></i></button></a>
+</div>
+ <div class="chat">
+    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a>
+    <a href="https://telegram.org" class="fa fa-telegram"></a>
+    <a href="https://github.com" class="fa fa-github"></a>
+</div>
+
+</div>
+</body>
+</html>

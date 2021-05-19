@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wiet ...</title>
+<meta charset="windows-1256" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="refresh" content="300">
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0' name='viewport' />
+<style>
+html, body {
+min-height: 100%;
+background: url(vd1.gif) no-repeat;
+background-position: 50%,50%;
+/* transform: translate(50%,50%); */
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Noto Kufi Arabic', sans-serif;
+transition: width 0.3s ease;
+}
+.box {
+width: 50%;
+background-color: white;
+padding: 50px;
+margin: 50px auto 0 auto;
+text-align: center;
+position: relative;
+border-radius: 0px 20px 0px 0px;
+/* border-bottom: 4px solid #0085DE; */
+-webkit-box-shadow: 2px 0px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 0px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.box .header {
+
+color: black;
+font-family: 'Arima Madurai', cursive;
+}
+.icon {
+background:url(images/back22.jpg);
+width: 100px;
+height: 100px;
+font-size: 2.2rem;
+border-radius: 50px;
+vertical-align: top;
+padding: 1px;
+position: absolute;
+top: -35px;
+left: -1%;
+box-shadow: #291426 0px 5px 5px;
+}
+/* 
+@keyframes anime {
+from {color: #D60000;}
+to {color: #0085DE;}
+}
+@-webkit-keyframes anime {
+from {color: #D60000;}
+to {color: #0085DE;}
+}
+.animate {
+animation: anime .25s infinite alternate;
+-webkit-animation: anime .25s infinite alternate;
+} */
+@media screen and (max-width:1000px){
+    .box{
+        background: red;
+
+    }
+ 
+}
+@media screen and (max-width:750px){
+.box {
+    background: rgba(0,0,0,0.75);
+width: 60%;
+}
+}
+@media screen and (max-width:500px){
+.box {
+    background: orangered;
+width: 90%;
+}
+}
+@media screen and (max-width:250px){
+    
+
+}
+
+
+
+
+</style>
+</head>
+  <body onload="timer=setTimeout(function(){ window.location='index.html';}, 2000)"> 
+<!-- <body>   -->
+<div class="box">
+  <div class="icon"><i class="icon-user"></i></div>
+   <br>
+  <div class="header"><h1>Ok, You are logged in successfully</h1>
+    <br>
+    <p>pleas wiet </p>
+</div>
+ </div>
+</body>
+
+</html>

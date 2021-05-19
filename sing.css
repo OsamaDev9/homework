@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+     background: url(../images/sky.jpg) no-repeat;
+    /* background: url(https://0i.is/2lqq) no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+h1{font-family: 'Arima Madurai', cursive; 
+   color: black;
+   text-shadow: 0px 1px 1px rgba(255,255,255,0.6);
+   z-index: 3;
+   }
+.divH{
+    margin: 0px;
+    padding: 0 0 200px;
+    text-align: center;
+    font-size: 22px;
+    color: darkblue
+}
+.divBUS{
+    position: absolute;
+    width: 300px;
+    height: 110px;
+    top: 55%;
+    left: 50%;
+    padding: 50px;
+    border-radius: 20%;
+    background: rgba(0, 0, 0, 0.4);
+    transform: translate(-50%,-50%);
+}
+.divBUS input{
+    width: 70%;
+    padding: 3px;
+    margin-bottom:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+.divinput{
+    transform: translate(11%,25%);
+    margin: 5px;
+}
+.divBUS fieldset{
+    border-radius: 20px 30px 50px 0;
+    color: black;
+}
+.divBUS a,p{
+    position: relative;
+    /* font-size:19px; */
+    color: rgb(37, 9, 9);
+}
+.divBUS .log{
+    position: relative;
+    height: 30px;
+    width: 45%;
+    left: 25%;
+    cursor: pointer;
+    background: #DCC;
+    color: rgb(15, 16, 17);
+    font-size: 20px;
+    border-radius: 20px;
+}
