@@ -34,12 +34,12 @@ left: 0%;
 } */
 .heading{
   padding:0;
-	 background-image:url(../image/5.jpg); 
- /* background-image:url(https://0i.is/Smpm); */
-	background-repeat:no-repeat;
+/* 	 background-image:url(../image/5.jpg);  */
+  background-image:url(https://0i.is/Smpm); 
+  background-repeat:no-repeat;
   position: absolute;
   width: 100%;
-	height: 80%;
+  height: 80%;
   background-position: 50%,50%;
   background-size: cover;
 }
