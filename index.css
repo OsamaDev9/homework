@@ -1,0 +1,707 @@
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+ *{
+   top: 0%;
+left: 0%;
+} 
+/* .cir img{
+  z-index: -1;
+ position: relative;
+ transform: translate(100%,100%);
+ animation-name: ball;
+ animation: ball 3s linear infinite;
+ background-repeat: repeat-x;
+/* animation-duration: 4s;
+}
+@keyframes ball{
+    0%{  transform: skew(10deg); }
+    20%{  transform: rotate(-10deg); }
+    50%{  transform: rotate(10deg); }
+    /*70%{  transform: skew(-10deg); }
+    90%{  transform: rotate3d(310deg); }
+    100%{  transform: translateX(1000px,100px);
+  transform: scale(1000deg);}   
+
+}       */
+    /* @keyframes cir{
+     
+      100%{
+        transform: translateX(1000px);
+      }
+}*/
+/* .body_index{
+  width: 100%;
+  height: 100%;
+} */
+.heading{
+  padding:0;
+	 background-image:url(../image/5.jpg); 
+ /* background-image:url(https://0i.is/Smpm); */
+	background-repeat:no-repeat;
+  position: absolute;
+  width: 100%;
+	height: 80%;
+  background-position: 50%,50%;
+  background-size: cover;
+}
+.heading h1{
+  color: #a9ce26;
+  /* color: #DDD; */
+  position: absolute;
+  width: 50%;
+  left: 5%;
+  top: 29%;
+  font-size:60px;
+  text-align: start;
+  border-radius: 220px 220px 0px 0px;
+
+}
+.heading h1:hover{
+  color: #DDD;
+  font-size:70px;
+  background: none;  
+}
+
+.loop {
+  background-color: red;
+  background-image: linear-gradient(to right,
+      rgba(0,0,0,0.9) 25%,
+      rgba(0,0,0,0.4) 50%,
+      rgba(0,0,0,0.9) 75%);
+  color: white;
+  height: 100%;
+  width: 2%;
+
+  -webkit-animation: 11s linear 0s infinite alternate move_eye;
+          animation: 11s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  } 
+.Index {
+  position: absolute;
+  width: 100%;
+  height:20%;
+  top: 5%;
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+  background: #0e0333; 
+  overflow: hidden;
+}
+.clas_ol {
+  display:inline-flex;
+  position: absolute;
+  width: 35%;
+  height: 20%;
+  left: 1%;
+  
+} 
+.clas_ol a{
+  text-decoration: none;
+  padding: 10px;
+  color: #DCC;
+  text-align: center;
+  font-size: 20px;
+}
+.Index a:hover{
+  color: red;
+  font-size: 25px;
+    
+}
+.up-in{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 70%;
+  display: inline-flex;
+ 
+ 
+}
+.up-in .in{
+  position: relative;
+  left: 40%;
+  color: #DCC;
+
+}
+.up-in .up{
+  position: relative;
+  left: 30%;
+  color: #DCC;
+
+}
+.up-in .clik{
+  padding: 15px 60px 15px 60px;
+  margin: 15px 0px 60px 0px;
+  color: #fff;
+  background:  #0732a8 ;
+  float: left;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 100%;
+  border: solid #fc584c 2px;
+  border-radius: 30px;
+}
+.clik:hover,
+.clik:focus {
+     background: #000;
+     border: solid #000 2px;
+     color: #fff;
+}
+
+/* class images box  */
+
+
+/* Photo one*/
+.images{
+  position: absolute;
+  left: 0;
+  top: 80%;
+  width:100%;
+  height: 80%;
+  margin-top: 50px;
+background: rgb(215, 228, 197);
+}
+.boximgandcont1{
+  position: absolute;
+  left: 2%;
+  top:2%;
+  width: 43vh;
+  height: 90%;
+  margin: 1px;
+
+}
+.boximgandcont2{
+  position: absolute;
+  left: 25%;
+  top:2%;
+  width: 43vh;
+  height: 90%;
+  margin: 1px;
+ 
+}
+.boximgandcont3{
+  position: absolute;
+  left: 50%;
+  top:2%;
+  width: 43vh;
+  height: 90%;
+  margin: 1px;
+ 
+}
+
+/*Box control image 4 and text and title for clik ONE just*/
+.boximgandcont4{
+  position: absolute;
+  left: 75%;
+  top:2%;
+  width: 43vh;
+  height: 90%;
+  margin: 1px;
+ 
+}
+.img{
+  position: absolute;
+  width:100%;
+  height:67%;
+border-radius: 10px;
+
+}
+/* box text and title photo*/
+.images .img-box{
+  position: absolute;
+  width: 100%;
+  height: 33%;
+  top:49vh;
+  left: 0px;
+  margin: 0;
+  display: block;
+  /*background:wheat;*/
+}  
+  
+  .images .img-title{
+  margin: 5px;
+  color: #0c579e;
+  font-size: 22px;
+  font:bold ;
+  text-align: center;
+  border-radius: 9px;
+  background: rgb(194, 184, 188);
+  border-radius:50px 10px;
+}
+.images .img-text{
+  margin: 4px;
+  text-align: center;
+  background: rgb(202, 226, 233);
+  border-radius: 0px 5px 20px 0px;
+  box-shadow: black 10px 10px 5px;
+  
+}
+
+.images .img-text:hover{
+  opacity: .8;
+}
+/*--------------- box text ---------------*/
+.introvid{
+  position:absolute;
+  left: 0;
+  top: 175%;
+  width: 100%;
+  height: 70%;
+  font-size: 20px;
+  font-family: sans-serif;
+  
+}
+.introvid .row{
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  margin-top: 0;
+  text-align: center;
+  font-family: 'Arima Madurai', cursive; 
+  
+}
+.introvid .column_center{
+  position:absolute;
+  left: 35%;
+  top: 10%; 
+  width: 30%;
+  height: 80%;
+  text-align: center;
+  
+}
+.introvid .column_left{
+  position:absolute;
+  left: 2%;
+  top: 35%;
+  width: 31%;
+  height: 60%;
+  
+}
+
+/*.introvid .cal_3{
+  position:absolute;
+  left: 72%;
+  top: 30%;
+  width: 28%;
+  height: 70%;
+  
+}
+/*--------start setting column_center*/
+/*.column_center h5{
+  font: bold;
+  font-size: 25px;
+}*/
+.column_center p{
+  position: absolute; 
+  top: 103%;
+  /*  background: royalblue;*/
+}
+.introvid .column_center img{
+  position:absolute;
+  left:30%;
+  top:22%;
+  width: 45%;
+  height: 70%;
+  /* box-shadow:#ada332 20px 18px 2px; */
+
+}
+/*--------start setting column_left*/
+.introvid .column_left span{
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 40px;
+  display: block;
+}
+.introvid .column_left hr{
+  position:absolute;
+  width:180px;
+	height:10px;
+  left: 5px;
+  top: 45vh;
+	background:linear-gradient(to right,#3987f4,#cd3178);
+  box-shadow:#ada332 10px 8px 5px;
+}
+/*--------------- Video ---------------*/
+.video{
+  position:absolute;
+  left: 0;
+  top: 254%;
+  width: 100%;
+  height: 80%;
+
+}
+.video_bady{
+  position:absolute;
+  width: 23%;
+  height:80%;
+  display: inline-flex;
+}
+.vid1{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  left: 2%;
+  margin: 10px ;
+  margin-top: 0;
+
+}
+.vid2{
+  position:absolute;
+  left: 165%;
+  margin-top: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.vid3{
+  position: absolute;
+  left: 320%;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.disvid:hover + .title {
+	display: block;
+}
+
+.title {
+	display: none;
+	color: #ffffff;
+	background-color: #000000;
+  text-align: center;
+  position: relative;
+  width: 95%;
+  height: 20%;
+  left: 20px;
+  top: 101%;
+  padding: 10px;
+  border-radius: 10px;
+}
+/* .tle1{
+  left: 10px;
+} */
+  .tle2{
+  left: 166%;
+}
+  .tle3{
+  left: 320%;
+}
+
+/* --------------------Go Up----------------- */
+.goup{
+  text-decoration: none;
+  position:absolute;
+  text-align: center;
+   font-size: 25px;
+   background-color: rgb(4, 19, 155);
+     color: aliceblue;
+     opacity: .6;
+     background-attachment: fixed;
+      top:330%;
+      left:2%;
+}
+.goup:hover{
+  background-color: rgb(4, 19, 155);
+  opacity: 1;
+}
+/*----------------------- rnd div ---------------*/
+.divend{
+  position:absolute;
+  left: 0;
+  top: 336%;
+  width: 100%;
+  height: 15%;
+  padding-block-end: 10px;
+  color: white;
+  display: inline-flex;
+  background: rgb(22, 1, 1);
+    text-align: start;
+  
+
+}
+
+.my{
+  position: relative;
+  text-align: center;
+  width: 40%;
+  height: 100%;
+  top: 20%;
+
+}
+.sendMy{
+  width: 50%;
+  height: 100%;
+  display:inline-block;
+}
+.divend .sendMy button{
+  position: absolute;
+  display:inline-flex;
+  left: 47%;
+  top: 5%;
+  width: 7%;
+  font-size: 20px;
+}
+.divend .sendMy p{
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.divend .sendMy .fa-envelope{
+  position:absolute;
+  left: 33%;
+  top: -80%;
+}
+.sendMy button:hover{
+  background: cadetblue;
+}
+.divend .chat{
+  position: absolute;
+  width: 40%;
+  left: 60%;
+  top: 10%;
+  font-size:50px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 100px ;
+}
+.fa {
+padding: 15px;
+width: 50px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+font-size: 50px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: rgb(108, 218, 233);
+}
+.fa-envelope{
+ color: #c9521a; 
+}
+.fa-facebook {
+color: blue;
+}
+.fa-twitter {
+
+color: #55ACEE;
+}
+.fa-telegram{
+  color:rgb(43, 70, 226);
+}
+.fa-github{
+  color:rgb(243, 240, 240);
+}
+
+
+
+/* File SingUp.html classes */
+.body_LG{
+  font-family: sans-serif;
+   /* background: url(../images/back2.jpg) no-repeat; */
+  background: url(https://0i.is/wIoW) no-repeat;  
+  background-size: cover;
+  background-attachment: fixed;
+  animation-name:back_body;
+  animation-duration: 15s;
+}
+@keyframes back_body{
+   /* 0% { background: url(../images/back.jpg) no-repeat;  */
+   0% { background: url(https://0i.is/Y8wP) no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   /* 50% { background: url(../images/back4.jpg) no-repeat;   */
+    50% { background: url(https://0i.is/0Tu5) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+   /* 100% { background: url(../images/back2.jpg) no-repeat;  */
+  100% {     background: url(https://0i.is/wIoW) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+}
+.divH{
+  position:absolute;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  font-size: 22px;
+  color: rgb(8, 42, 65)
+}
+.divH span{
+  font-size: 20px;
+  color: rgb(136, 84, 84);
+}
+.divB{
+  position: absolute;
+  height: 420px;
+  width:400px;
+  left: 35%;
+  top: 25%;
+  /* padding: 5px 10px; */
+  border-radius: 20px;
+
+}
+.divB input{
+  position: relative;
+  width: 60%;
+  padding: 4px;
+  text-align: center;
+  margin:5px;
+  border-radius: 20px;
+  transform: translate(22%,1%);
+  
+}
+.divB fieldset{
+  padding: 10px;
+  color: rgb(249, 253, 253);
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 20px 30px 50px 10px;
+  
+  border: rgb(224, 70, 70) solid 1px;
+}
+.divB .field2{
+  position: relative;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 0px 100px 100px 0px;
+}
+.divB .log{
+  position: absolute;
+  height: 40px;
+  top: 101%;
+  left: 25px;
+  color: #FFd;
+  cursor: grab;
+  text-align: center;
+  border-radius: 20px;
+  background: #DCC;
+  background: rgb(44, 33, 44);
+  font-size: 20px;
+  
+}
+.divB .log:hover{
+  background:rgb(60, 52, 173);
+  }
+.divB a{
+  cursor: alias;
+}
+fieldset .reset:hover{
+  background:red;
+  }
+fieldset .reset{
+  width: 40%;
+  cursor: pointer; 
+  transform: translate(70%,1%);
+}
+.divB .field2 .date{
+  cursor: pointer; 
+  transform: translate(10%,15%);
+  background: rgb(241, 229, 229);
+}
+
+/* ============================  files Element.html   ================================ */
+.heading_elmnt{
+  padding:0;
+	/* background-image:url(../image/5.jpg);  */
+	background-image:url(https://0i.is/Smpm); 
+	background-repeat:no-repeat;
+  position: absolute;
+  width: 100%;
+	height: 20%;
+  top: 2%;
+  /* background-position: 10%,50%; */
+  background-size: cover;
+}
+.Index_elmnt {
+  position: absolute;
+  width: 100%;
+  height:50%;
+  top: 20%;r
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+  background: #0e0333; 
+  overflow: hidden;
+}
+.Index_elmnt a:hover{
+  color: red;
+  font-size: 25px;
+    
+}
+/* -------------------- List Ordar AND Unorder */
+.List{
+   background: rgb(103, 94, 124);
+  position:absolute;
+  width: 100%;
+  top: 30%;
+  font-size: 20px;
+  line-height: 22px;
+}
+.ol1{
+  position:relative;
+  left: 0px;
+  top: 30%;
+}
+
+.ol1 li{
+  text-align: start;
+  margin-right: 10px;
+  font-size: 25;
+}
+
+#definitoin{
+  background: #DCC;
+  cursor: pointer;
+}
+.ol1 span{  display: none;  }
+
+.ht:hover + span { 
+  display: block;
+  color: red;
+  background: rgba(134, 207, 231, 0.747);
+  position: absolute;
+  left: 10%;
+}
+.CS:hover + span { 
+  display: block;
+  text-align: start;
+  color: red;
+  background: rgba(134, 207, 231, 0.747);
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+/* -------------------    tabel   ---------------------- */
+.table{
+  position:absolute;
+  width: 100%;
+  top: 90%;
+  text-align: center;
+}
+.trh{
+  background: linear-gradient(rgb(80, 153, 130),rgb(0, 255, 242));
+}
+.trb{
+  background: rgb(241, 213, 241);
+}
+.trf{
+  background: linear-gradient(red,blue,green);
+  color: white;
+}
+.backend a{
+          position:absolute; 
+          top:120%;
+          width: 100%;
+          background: teal;
+          font-size: 25px;
+          color: beige;
+          text-align: center; 
+          text-decoration: none;
+}
+.backend a:hover{
+font-size: 25px;
+  color: #000;
+}
