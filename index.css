@@ -34,12 +34,12 @@ left: 0%;
 } */
 .heading{
   padding:0;
-	 background-image:url(../image/5.jpg); 
- /* background-image:url(https://0i.is/Smpm); */
-	background-repeat:no-repeat;
+/* background-image:url(../image/5.jpg);  */
+  background-image:url(https://0i.is/Smpm);
+  background-repeat:no-repeat;
   position: absolute;
   width: 100%;
-	height: 80%;
+  height: 80%;
   background-position: 50%,50%;
   background-size: cover;
 }
@@ -63,7 +63,8 @@ left: 0%;
 
 .loop {
   background-color: red;
-  background-image: linear-gradient(to right,
+  background-
+	: linear-gradient(to right,
       rgba(0,0,0,0.9) 25%,
       rgba(0,0,0,0.4) 50%,
       rgba(0,0,0,0.9) 75%);
@@ -498,26 +499,26 @@ color: #55ACEE;
 /* File SingUp.html classes */
 .body_LG{
   font-family: sans-serif;
-   background: url(../images/back2.jpg) no-repeat;
-   /* background: url(https://0i.is/wIoW) no-repeat;  */
+/*background: url(../images/back2.jpg) no-repeat; */
+  background: url(https://0i.is/wIoW) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   animation-name:back_body;
   animation-duration: 15s;
 }
 @keyframes back_body{
-   0% { background: url(../images/back.jpg) no-repeat; 
-  /* 0% { background: url(https://0i.is/Y8wP) no-repeat;   */
+/*    0% { background: url(../images/back.jpg) no-repeat;  */
+    0% { background: url(https://0i.is/Y8wP) no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }
-   50% { background: url(../images/back4.jpg) no-repeat;  
-   /* 50% { background: url(https://0i.is/0Tu5) no-repeat; */
+/* 50% { background: url(../images/back4.jpg) no-repeat;   */
+   50% { background: url(https://0i.is/0Tu5) no-repeat; 
     background-size: cover;
     background-attachment: fixed;
   }
-   100% { background: url(../images/back2.jpg) no-repeat; 
-   /* 100% {     background: url(https://0i.is/wIoW) no-repeat; */
+/*100% { background: url(../images/back2.jpg) no-repeat;  */
+  100% {     background: url(https://0i.is/wIoW) no-repeat; 
   background-size: cover;
   background-attachment: fixed;
 }
