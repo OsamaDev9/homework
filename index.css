@@ -34,8 +34,8 @@ left: 0%;
 } */
 .heading{
   padding:0;
-	/* background-image:url(../image/5.jpg);  */
- background-image:url(https://0i.is/Smpm);
+	 background-image:url(../image/5.jpg); 
+ /* background-image:url(https://0i.is/Smpm); */
 	background-repeat:no-repeat;
   position: absolute;
   width: 100%;
@@ -159,7 +159,7 @@ left: 0%;
   width:100%;
   height: 80%;
   margin-top: 50px;
-background: rgb(162, 180, 125);
+background: rgb(215, 228, 197);
 }
 .boximgandcont1{
   position: absolute;
@@ -220,25 +220,25 @@ border-radius: 10px;
   
   .images .img-title{
   margin: 5px;
-  color: #9e0c0c;
+  color: #0c579e;
   font-size: 22px;
   font:bold ;
   text-align: center;
   border-radius: 9px;
-  background: rgb(164, 187, 199);
+  background: rgb(194, 184, 188);
   border-radius:50px 10px;
 }
 .images .img-text{
   margin: 4px;
   text-align: center;
-  background: salmon;
-  border-radius: 20px 5px 20px 0px;
+  background: rgb(202, 226, 233);
+  border-radius: 0px 5px 20px 0px;
   box-shadow: black 10px 10px 5px;
   
 }
 
 .images .img-text:hover{
-  background: rgb(24, 188, 230);
+  opacity: .8;
 }
 /*--------------- box text ---------------*/
 .introvid{
@@ -498,26 +498,26 @@ color: #55ACEE;
 /* File SingUp.html classes */
 .body_LG{
   font-family: sans-serif;
-  /* background: url(../images/back2.jpg) no-repeat; */
-   background: url(https://0i.is/wIoW) no-repeat; 
+   background: url(../images/back2.jpg) no-repeat;
+   /* background: url(https://0i.is/wIoW) no-repeat;  */
   background-size: cover;
   background-attachment: fixed;
   animation-name:back_body;
   animation-duration: 15s;
 }
 @keyframes back_body{
-  /* 0% { background: url(../images/back.jpg) no-repeat;  */
-  0% { background: url(https://0i.is/Y8wP) no-repeat;  
+   0% { background: url(../images/back.jpg) no-repeat; 
+  /* 0% { background: url(https://0i.is/Y8wP) no-repeat;   */
     background-size: cover;
     background-attachment: fixed;
   }
-  /* 50% { background: url(../images/back4.jpg) no-repeat;   */
-   50% { background: url(https://0i.is/0Tu5) no-repeat;
+   50% { background: url(../images/back4.jpg) no-repeat;  
+   /* 50% { background: url(https://0i.is/0Tu5) no-repeat; */
     background-size: cover;
     background-attachment: fixed;
   }
-  /* 100% { background: url(../images/back2.jpg) no-repeat;  */
-   100% {     background: url(https://0i.is/wIoW) no-repeat;
+   100% { background: url(../images/back2.jpg) no-repeat; 
+   /* 100% {     background: url(https://0i.is/wIoW) no-repeat; */
   background-size: cover;
   background-attachment: fixed;
 }
