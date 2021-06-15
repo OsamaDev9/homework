@@ -415,8 +415,8 @@ border-radius: 10px;
   padding-block-end: 10px;
   color: white;
   display: inline-flex;
-  background: rgb(22, 1, 1);
-    text-align: start;
+  background: rgb(54, 130, 153);
+  text-align: start;
   
 
 }
@@ -456,10 +456,10 @@ border-radius: 10px;
 }
 .divend .chat{
   position: absolute;
-  width: 40%;
+  width: 30%;
   left: 60%;
   top: 10%;
-  font-size:50px;
+  font-size:40px;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 100px ;
 }
@@ -474,7 +474,7 @@ font-size: 50px;
 
 .fa:hover {
   opacity: 0.7;
-  color: rgb(108, 218, 233);
+ color: rgb(4, 26, 29);
 }
 .fa-envelope{
  color: #c9521a; 
